@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-image: url('../Images/bg.jpg');  /* Background image */
+    background-size: cover;  /* Make sure the image covers the entire page */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);  /* Slightly transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.wrapper h1 {
+    margin-bottom: 20px;
+    color: #1f9839;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.wrapper input[type="text"], .wrapper input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;  /* Specify border width, style, and color */
+    outline: none;  /* Remove the default outline */
+    font-size: 1em;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+
+.wrapper .icon {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.wrapper .remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Remember me checkbox */
+.wrapper label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper button:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password link */
+.wrapper a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9em;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+/* New account creation section */
+.wrapper .account-creation {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Create Account link */
+.wrapper .account-creation a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wrapper .account-creation a:hover {
+    text-decoration: underline;
+}
